@@ -43,4 +43,8 @@ public final class Veletlen {
         return rnd.nextInt(max - min + 1) + min;
     }
 
+    public static char velKarakter(char min , char max){
+        return (char) velEgesz(min,max);
+    }
+
 }
